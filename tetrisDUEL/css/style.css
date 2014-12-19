@@ -1,0 +1,252 @@
+*{ /*the * means all of elements*/ 
+	margin:0;
+	padding:0; /*we usually reset all default margin to zero*/
+}
+
+div, nav, li
+{
+	display:block;
+}
+
+li, h1
+{
+	margin : 10px 20px;
+	width: 280px;
+	word-wrap: break-word;
+	color: white;
+}
+
+h2
+{
+	text-align : center;
+	color : white;
+	padding : 20px 0px;
+}
+
+a
+{
+	text-decoration:none;
+	color:white;
+	font-family: 'Happy Monkey', cursive;
+	font-size: .8em;
+	letter-spacing:0.09em;
+}
+
+body
+{
+	background-color: black;
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+}
+
+
+/* start all start */
+#wrapper
+{
+	min-width:300px;
+	min-height:600px;
+	/*background: url(pictures/banner.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-orient: vertical;
+	/*border: 2px solid #6e6e7b;*/
+}
+
+#banner
+{
+	min-height: 50px;
+	min-width: 300px;
+	/*background: url(pictures/banner.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+}
+
+#buttons{
+    font-size: 18pt;
+	margin: 0px 0px;
+	display:-webkit-box;
+	-webkit-box-pack:center;	
+}
+
+#buttons li{
+	background-color : #DF5553;
+	border: 1px solid #CF3D60;
+	width:100px;
+	padding: 5px;
+	margin: 10px 0px;
+	text-align:center;
+	-webkit-border-radius:10px;
+}
+/* end all start */
+
+/* start all mode */
+
+#wrapper1
+{
+	min-width:300px;
+	min-height:600px;
+	/*background: url(pictures/banner.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-orient: vertical;
+	/*border: 2px solid #6e6e7b;*/
+}
+
+#modeBut{
+    font-size: 18pt;
+	margin: 0px 0px;
+	display:-webkit-box;
+	-webkit-box-pack:center;	
+}
+
+#modeBut li{
+	background-color : #DF5553;
+	border: 1px solid #CF3D60;
+	width:100px;
+	padding: 5px;
+	margin: 10px 0px;
+	text-align:center;
+	-webkit-border-radius:10px;
+}
+
+
+
+/* end all mode */
+
+
+/* end all howtoplay */
+#wrapper2
+{
+	min-width:300px;
+	min-height:600px;
+	/*background: url(pictures/banner.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-orient: vertical;
+	/*border: 2px solid #6e6e7b;*/
+}
+
+#howToPlayBut{
+    font-size: 18pt;
+	margin: 0px 0px;
+	display:-webkit-box;
+	-webkit-box-pack:center;	
+}
+
+#howToPlayBut li{
+	background-color : #DF5553;
+	border: 1px solid #CF3D60;
+	width:100px;
+	padding: 5px;
+	margin: 10px 0px;
+	text-align:center;
+	-webkit-border-radius:10px;
+}
+/* end all howtoplay */
+
+
+/* start all viewhighscore */
+#wrapper3
+{
+	min-width:300px;
+	min-height:600px;
+	/*background: url(pictures/banner.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-orient: vertical;
+	/*border: 2px solid #6e6e7b;*/
+}
+
+#viewHighScoreBut{
+    font-size: 18pt;
+	margin: 0px 0px;
+	display:-webkit-box;
+	-webkit-box-pack:center;	
+}
+
+#viewHighScoreBut li{
+	background-color : #DF5553;
+	border: 1px solid #CF3D60;
+	width:100px;
+	padding: 5px;
+	margin: 10px 0px;
+	text-align:center;
+	-webkit-border-radius:10px;
+}
+/* end all viewhighscore */
+
+
+/* all game */
+#gameitem
+{
+	/*width:300px;
+	height:300px;*/
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-orient: vertical;
+}
+
+#gameboard
+{	
+	margin:0 auto;
+}
+
+#score
+{
+	font-size: 12pt;
+	font-family: sans-serif, verdana;
+	color: white;
+	height: 40px;
+	width: 320px;
+	margin: 0 auto;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+#displayScore
+{
+	display:-webkit-box;
+	-webkit-box-pack:start;
+}
+
+#inGameBut
+{
+    font-size: 18pt;
+	margin:0px 0px;
+	display:-webkit-box;
+	-webkit-box-pack:start;
+}
+
+#inGameBut li{
+	display:inline-block;
+	background-color : #DF5553;
+	border: 1px solid #CF3D60;
+	width:100px;
+	padding: 2px;
+	margin: 0px 0px;
+	text-align:center;
+	-webkit-border-radius:10px;
+}
+
+#directions p
+{
+	font-size: 14pt;
+	font-family: sans-serif, verdana;
+	color: white;
+	height: 20px;
+	width: 320px;
+	margin: 0 auto;
+}
+
+/* end of all game */

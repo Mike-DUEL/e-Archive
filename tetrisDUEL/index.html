@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Tetris HTML5</title>
+
+<meta name="viewport" content="user-scalable=no, initial-scale=0.5, maximum-scale=1, user-scalable=0" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<script type="text/javascript" src="gameindex.html"> document.getElementById('highscore').innerHTML=localStorage.getItem("mostLines");</script>
+</head>
+
+<body>
+
+	<div id="wrapper" style="background-image:url(pictures/backgroundimage.png)">
+		
+		<div id="banner" style="background-image:url(pictures/banner.png)">
+		
+		</div>
+			
+		<div id="modeBut">
+		
+			<ul id="ulist">
+				<li id="newGameBut"><a href="#">New Game</a></li>
+				<li id="howToPlayBut"><a href="#">How To Play</a></li>
+				<li id="viewHighScoreBut"><a href="#">View High Score</a></li>
+			</ul>
+			
+		</div>
+		
+	</div>
+	
+	<div id="wrapper1" style="background-image:url(pictures/backgroundimage.png)">
+		
+		<div id="banner" style="background-image:url(pictures/banner.png)">
+		
+		</div>
+		
+		<div id="modeBut">
+		
+			<ul id="ulist">
+				<li id="normalBut"><a href="#">Normal Mode</a></li>
+				<li id="hardBut"><a href="#">Hard Mode</a></li>
+				<li id="modeBackBut"><a href="#">Back</a></li>
+			</ul>
+			
+		</div>
+				
+	</div>
+	
+	<div id="wrapper2" style="background-image:url(pictures/backgroundimage.png)">
+		
+		<div id="banner" style="background-image:url(pictures/banner.png)">
+		
+		</div>
+		
+		<h1>Instruction : </h1>
+		
+		<ul>
+                <li><h4>Normal Mode : </h4>Normal traditional tetris concept</li>
+                <li><h4>Hard Mode : </h4>Speed of the tetris will increase base on number of lines.</li>
+				<li><h4>Swipe left : </h4>Move block to the left side (1 block at a time)</li>
+				<li><h4>Swipe right : </h4>Move block to the right side (1 block at a time)</li>
+				<li><h4>Swipe down : </h4>Move block to the down side (1 block at a time)</li>
+				<li><h4>Tap screen : </h4>Rotate the current block being played (clockwise)</li>
+		</ul>
+		
+		<div id="howToPlayBut">
+		
+			<ul>
+				<li id="backButHtPlay"><a href="#">Back</a></li>
+			</ul>
+			
+		</div>
+				
+	</div>
+	
+	
+	<div id="wrapper3" style="background-image:url(pictures/backgroundimage.png)">
+		
+		<div id="banner" style="background-image:url(pictures/banner.png)">
+		
+		</div>
+        <h1>Normal Mode</h1>
+		
+		<h2>Highscore : 32</h2>
+        
+        <h1>Hard Mode</h1>
+        
+        <h2>Highscore : 8</h2>
+		
+		<div id="viewHighScoreBut">
+		      <p><span id="highscore"></span></p>
+			<ul>
+				<li id="backVHSBut"><a href="#">Back</a></li>
+			</ul>
+			
+		</div>
+		
+	</div>
+	
+	
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>	
+<script type="text/javascript" src="js/tetrino.js"></script>
+<script type="text/javascript" src="js/BulkImageLoader.js"></script>
+<script type="text/javascript" src="js/hideShow.js"></script>
+
+</body>
+
+</html>
